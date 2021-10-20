@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="icon" href="#">
+    <title>Document</title>
+</head>
+<body>
+    <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+        <button>Login</button>
+    </form>
+    <button onclick="logOut()" id="logout">LogOut</button>
+    <h1 id="userName"></h1>
+    <h2 id="clock">00:00</h2>
+    <script src="js/name.js"></script>
+    <script src="js/clock.js"></script>
+</body>
+</html>
